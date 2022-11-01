@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>     // compare the two json porpaties
+        var obj1 = {name:"person1",age:6}
+        var obj2 = {age:6,name:"person1"}
+        if(JSON.stringify(obj1)===JSON.stringify(obj2)){
+            console.log("same")
+        }else {
+            console.log("not same")
+        }
+
+    </script>
+</body>
+</html>
